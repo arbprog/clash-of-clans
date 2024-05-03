@@ -1,4 +1,4 @@
-# vue-cli-template
+# clash-of-clans
 
 ## Project setup
 ```
