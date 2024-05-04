@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "alias": "archer",
+        "title": "Archer",
+        "descr": "Use long bow",
+        "img": "https://tocode.ru/static/uploads/courses/3/clash-of-clans-images/archer.png",
+        "lvl": 4
+    },
+    {
+        "id": 2,
+        "alias": "wizard",
+        "title": "Wizard",
+        "descr": "Use staff",
+        "img": "https://tocode.ru/static/uploads/courses/3/clash-of-clans-images/wizard.png",
+        "lvl": 5
+    },
+    {
+        "id": 3,
+        "alias": "barbarian",
+        "title": "Barbarian",
+        "descr": "Use blunt",
+        "img": "https://tocode.ru/static/uploads/courses/3/clash-of-clans-images/barbarian.png",
+        "lvl": 5
+    }
+]
