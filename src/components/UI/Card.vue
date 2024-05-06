@@ -7,12 +7,8 @@
     <div class="card-title">{{ title }}</div>
     <div class="card-body">
       <slot></slot>
-      <router-link
-        class="btn btnPrimary"
-        style="display: block; margin-top: 15px; text-decoration: none"
-        v-if="link"
-        :to="link"
-      >See more</router-link>
+      <router-link class="btn btnPrimary" style="display: block; margin-top: 15px; text-decoration: none" v-if="link"
+        :to="link">See more</router-link>
     </div>
   </div>
 </template>

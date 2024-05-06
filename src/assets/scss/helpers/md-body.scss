@@ -151,7 +151,7 @@ ul > li:first-child > ul > li {
     padding-left: rem(40);
     margin-bottom: rem(20);
     &:before {
-      display: inline-block;
+      display: none;
       position: absolute;
       left: rem(18);
       counter-increment: list;

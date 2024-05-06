@@ -81,7 +81,7 @@ section,
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  max-height: 100vh;
   margin: 0 auto;
 }
 
@@ -125,3 +125,4 @@ section,
 
 @import './common/_common';
 @import './helpers/_helpers';
+@import './theme.scss';

@@ -1,13 +1,14 @@
 <template>
     <div class="wrapper">
-        <div class="card" style="flex-direction: column;">
-            <div v-if="item">
-                <img :src="item.img" :alt="item.descr">
-                <h1 class="title">{{ item.title }}</h1>
-                <p>{{ item.descr }}</p>
+        <div class="card">
+            <div v-if="item" class="card-img__wrapper">
+                <img class="card-img" :src="item.img" :alt="item.descr" />
             </div>
-            <div>
-                <router-link to="/" class="btn btnPrimary" style="margin: 40px;">To home page</router-link>
+            <div class="card-name">{{ item.lvl  }} lvl</div>
+            <div class="card-title">{{ item.title  }}</div>
+            <div class="card-body">
+                {{ item.descr }}
+                <router-link to="/" class="btn btnPrimary" style="margin-top: 15px;">To home page</router-link>
             </div>
         </div>
     </div>
